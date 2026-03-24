@@ -1,11 +1,11 @@
 {
   "name": "kynjalflow",
-  "version": "3.1.0-alpha.44",
+  "version": "3.1.0",
   "description": "KynjalFlow - Personal AI agent orchestration platform. Deploy 60+ specialized agents in coordinated swarms with self-learning, fault-tolerant consensus, vector memory, and MCP integration",
   "main": "bin/kynjalflow.js",
   "type": "module",
   "bin": {
-    "kynjalflow": "./bin/kynjalflow.js"
+    "kynjalflow": "bin/kynjalflow.js"
   },
   "homepage": "https://github.com/KingJune28/claude-flow#readme",
   "bugs": {
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/KingJune28/claude-flow.git",
+    "url": "git+https://github.com/KingJune28/claude-flow.git",
     "directory": "kynjalflow"
   },
   "keywords": [
