@@ -1,0 +1,58 @@
+{
+  "name": "kynjalflow",
+  "version": "4.0.4",
+  "description": "KynjalFlow - AI agent orchestration platform with integrated UI/UX design intelligence. Deploy 60+ specialized agents including design swarm (design-architect, ux-researcher, ui-developer, accessibility-auditor) in coordinated swarms with self-learning, fault-tolerant consensus, vector memory, and MCP integration",
+  "main": "bin/kynjalflow.js",
+  "type": "module",
+  "bin": {
+    "kynjalflow": "bin/kynjalflow.js"
+  },
+  "homepage": "https://github.com/KingJune28/claude-flow#readme",
+  "bugs": {
+    "url": "https://github.com/KingJune28/claude-flow/issues"
+  },
+  "files": [
+    "bin/**",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "kynjal-cli": ">=4.0.4"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingJune28/claude-flow.git",
+    "directory": "kynjalflow"
+  },
+  "keywords": [
+    "kynjalflow",
+    "claude-flow",
+    "claude",
+    "claude-code",
+    "anthropic",
+    "ai",
+    "ai-agents",
+    "multi-agent",
+    "agent-orchestration",
+    "swarm-intelligence",
+    "swarm",
+    "mcp",
+    "model-context-protocol",
+    "ui-ux",
+    "design-system",
+    "design-intelligence",
+    "cli",
+    "developer-tools"
+  ],
+  "author": {
+    "name": "KingJune28"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "tag": "latest"
+  }
+}

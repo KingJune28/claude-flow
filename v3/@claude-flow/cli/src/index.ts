@@ -607,10 +607,13 @@ export {
   processTrajectory,
   getSuggestion,
   getSONAStats,
-  type TrajectoryOutcome,
-  type LearnedPattern,
-  type RoutingSuggestion,
-  type SONAStats,
+} from './memory/sona-optimizer.js';
+
+export type {
+  TrajectoryOutcome,
+  LearnedPattern,
+  RoutingSuggestion,
+  SONAStats,
 } from './memory/sona-optimizer.js';
 
 // Production Hardening

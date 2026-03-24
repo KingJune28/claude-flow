@@ -378,14 +378,25 @@ Performance optimization and bottleneck resolution.
 ### Creative and Support Modes
 
 #### `designer`
-UI/UX design with accessibility focus.
+UI/UX design with accessibility focus. **Delegates to the design-architect agent** which orchestrates the full design swarm (ux-researcher → ui-developer → accessibility-auditor).
+
+**Usage**: For design tasks, spawn the design-architect agent:
+```
+Agent(subagent_type="design-architect")
+```
+
+The design-architect coordinates:
+1. **ux-researcher** — searches UI UX Pro Max across all domains
+2. **design-architect** — synthesizes research into design spec + MASTER.md
+3. **ui-developer** — implements with React/Tailwind/shadcn
+4. **accessibility-auditor** — validates WCAG 2.1 AA compliance
 
 **Capabilities**:
-- Interface design
-- User experience optimization
-- Accessibility compliance (WCAG 2.1)
-- Design system creation
-- Responsive layout design
+- Interface design (via design swarm)
+- User experience optimization (via ux-researcher)
+- Accessibility compliance WCAG 2.1 (via accessibility-auditor)
+- Design system creation (via UI UX Pro Max --design-system)
+- Responsive layout design (via ui-developer)
 
 #### `innovator`
 Creative problem-solving and novel solutions.
