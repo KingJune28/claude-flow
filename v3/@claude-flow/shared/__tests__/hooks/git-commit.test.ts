@@ -148,7 +148,7 @@ describe('GitCommitHook', () => {
 
       expect(result.coAuthorAdded).toBe(true);
       expect(result.modifiedMessage).toContain('Co-Authored-By:');
-      expect(result.modifiedMessage).toContain('Claude');
+      expect(result.modifiedMessage).toContain('KynjalFlow');
     });
 
     it('should add Claude Code reference', async () => {
@@ -160,8 +160,8 @@ describe('GitCommitHook', () => {
     it('should not duplicate co-author if already present', async () => {
       const result = await gitCommit.process('Add feature\n\nCo-Authored-By: Someone <some@email.com>');
 
-      // Should still add Claude co-author
-      expect(result.modifiedMessage).toContain('Claude');
+      // Should still add KynjalFlow co-author
+      expect(result.modifiedMessage).toContain('KynjalFlow');
     });
   });
 

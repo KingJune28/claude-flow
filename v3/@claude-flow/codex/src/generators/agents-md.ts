@@ -214,7 +214,7 @@ ${skillsTable}
 
 [optional body]
 
-Co-Authored-By: claude-flow <ruv@ruv.net>
+Co-Authored-By: KynjalFlow <ebenezer7819@gmail.com>
 \`\`\`
 
 Types: \`feat\`, \`fix\`, \`docs\`, \`style\`, \`refactor\`, \`perf\`, \`test\`, \`chore\`

@@ -756,6 +756,7 @@ const skillsCommand: Command = {
         browser: false,
         v3: ctx.flags.v3 as boolean,
         dualMode: false,
+        design: false,
       },
     };
 

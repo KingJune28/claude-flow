@@ -27,7 +27,7 @@ function toImportURL(filePath) {
 const pkgDir = findCliPath();
 const cliBase = pkgDir
   ? join(pkgDir, 'node_modules', '@claude-flow', 'cli')
-  : resolve(__dirname, '../../v3/@claude-flow/cli');
+  : resolve(__dirname, '../../v3/@claude-flow/kynjal-cli');
 
 // MCP mode: delegate to cli.js directly (branding irrelevant for JSON-RPC)
 const cliArgs = process.argv.slice(2);

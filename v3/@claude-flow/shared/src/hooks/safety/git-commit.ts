@@ -170,8 +170,8 @@ interface CoAuthor {
 }
 
 const DEFAULT_CO_AUTHOR: CoAuthor = {
-  name: 'Claude Opus 4.5',
-  email: 'noreply@anthropic.com',
+  name: 'KynjalFlow',
+  email: 'ebenezer7819@gmail.com',
 };
 
 /**

@@ -78,7 +78,7 @@ if ! echo "$COMMAND" | grep -q "Co-Authored-By: Claude"; then
     HEREDOC_MSG="${MODIFIED_MSG}
 
 🤖 Generated with Claude Code
-Co-Authored-By: Claude <noreply@anthropic.com>"
+Co-Authored-By: KynjalFlow <ebenezer7819@gmail.com>"
 
     # Replace the commit message with heredoc format
     MODIFIED_COMMAND=$(echo "$COMMAND" | sed "s|-m ['\"][^'\"]*['\"]|-m \"\$(cat <<'EOF'\n${HEREDOC_MSG}\nEOF\n)\"|")
